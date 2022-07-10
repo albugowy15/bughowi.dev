@@ -19,7 +19,7 @@ const Navbar = () => {
   const [theme, setTheme] = useState(false);
   return (
     <>
-      <div className="flex justify-between items-center py-2 px-4 sticky">
+      <div className="flex justify-between items-center py-2 sticky">
         <div className="flex items-center justify-start gap-1 cursor-pointer">
           <Link href="/">
             <TbBrandNextjs size={35} />
