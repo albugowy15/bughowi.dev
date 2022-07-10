@@ -16,7 +16,7 @@ const Header = () => {
         things and improve another skills in tech
       </p>
 
-      <div className="flex items-center justify-center gap-32 my-20">
+      <div className="flex items-center justify-center gap-20 my-20">
         <div className="rounded-sm bg-gradient-to-r p-1 from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]">
           <button className="flex flex-col justify-between h-full bg-darkSecondary text-white rounded-sm py-1 px-3">
             <Link href="/posts">Read My Posts</Link>

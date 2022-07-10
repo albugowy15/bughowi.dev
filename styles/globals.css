@@ -4,6 +4,6 @@
 
 @layer base {
   body {
-    @apply bg-[#121212] text-[#fff] font-mulish;
+    @apply bg-darkPrimary text-[#fff] font-mulish;
   }
 }

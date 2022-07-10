@@ -67,7 +67,7 @@ const Navbar = () => {
       <div
         className={
           nav
-            ? "absolute flex w-screen h-screen top-0 bg-black bg-opacity-60"
+            ? "fixed flex w-screen h-screen top-0 bg-black bg-opacity-60"
             : "hidden"
         }
       >

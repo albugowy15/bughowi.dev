@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import HomePostCard from "./HomePostCard";
 
 const DUMMY_POSTS = [
@@ -64,7 +63,7 @@ const RecentPosts = () => {
   return (
     <div>
       <h1 className="text-2xl font-bold">Recent Posts</h1>
-      <div className="flex items-center justify-center gap-2 flex-wrap">
+      <div className="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-2">
         {DUMMY_POSTS.map((post, key) => (
           <HomePostCard key={key} post={post} />
         ))}
